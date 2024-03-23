@@ -1,6 +1,5 @@
 import express from "express";
-import Mentor from "../model/index.js"; // Assuming Mentor model is exported as default from 'index.js'
-
+import Mentor from "../model/index.js"
 const mentorRouter = express.Router();
 
 mentorRouter.get("/", async (req, res) => {
